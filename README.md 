@@ -1,0 +1,8 @@
+Cool commands for extracting the encoding settings from an EON file
+
+mediainfo input.mp4 | grep "Encoding settings" | cut -d':' -f2- | tr '/' '\n' | sed 's/ //'
+
+Make sure to run this 
+
+sudo apt-get install ffmpeg  libavcodec-extra
+

@@ -6,7 +6,7 @@ from tools.lib.framereader import FrameReader
 import matplotlib
 import matplotlib.pyplot as plt
 # imgs just a list of images as in YUV format
-fr = FrameReader("read.hevc")
+fr = FrameReader("leon.hevc")
 
 imgs = []
 for i in tqdm(range(100)):
@@ -47,30 +47,12 @@ for i in tqdm(range(len(frame_tensors) - 1)):
   outs = supercombo.predict(inputs)
   poses.append(outs[-2])
   state = outs[-1]
-  left_lane.append(outs[1])
-  right_lane.append(outs[2])
-  """
-  ## Path
-  print(np.array(outs[0]).shape)
-  ## left_lane
-  
-  print(np.array(outs[1]).shape)
-  left_lane.append(outs[1])
-  ## right_lane
-  #print(outs[2])
-  print(np.array(outs[2]).shape)
-  ## pose
-  print(np.array(outs[9]).shape)
-#plt.plot([p[0,:3] for p in state])
-#plt.show()
-"""
-count = 0
-for i in left_lane:
-  # Each prediction for frame
+  plt.clf()
+  plt.title("lanes and path")
+  plt.scatter(parsed["lll"], range(0,192), c="b")
+  plt.scatter(parsed["rll"], range(0, 192), c="r")
+  plt.scatter(parsed["path"], range(0, 192), c="g")
+  plt.gca().invert_xaxis()
+  plt.pause(0.05)
   count += 1
-  print(np.array(i).shape)
-print(count)
-
-print(left_lane[0][0][0])
-
-
+plt.show()
