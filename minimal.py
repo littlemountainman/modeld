@@ -38,12 +38,18 @@ print(supercombo.summary())
 # Just passing zeros for desire and state
 poses = []
 state = np.zeros((1,512))
+## Saving lane data 
 left_lane = []
+right_lane = []
+
 for i in tqdm(range(len(frame_tensors) - 1)):
   inputs = [np.vstack(frame_tensors[i:i+2])[None], np.zeros((1,8)), state]
   outs = supercombo.predict(inputs)
   poses.append(outs[-2])
   state = outs[-1]
+  left_lane.append(outs[1])
+  right_lane.append(outs[2])
+  """
   ## Path
   print(np.array(outs[0]).shape)
   ## left_lane
@@ -57,7 +63,7 @@ for i in tqdm(range(len(frame_tensors) - 1)):
   print(np.array(outs[9]).shape)
 #plt.plot([p[0,:3] for p in state])
 #plt.show()
-
+"""
 count = 0
 for i in left_lane:
   # Each prediction for frame
@@ -66,3 +72,5 @@ for i in left_lane:
 print(count)
 
 print(left_lane[0][0][0])
+
+
