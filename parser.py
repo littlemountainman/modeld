@@ -3,7 +3,7 @@ from common.transformations.camera import transform_img, eon_intrinsics
 from common.transformations.model import medmodel_intrinsics
 import numpy as np
 from tqdm import tqdm
-from tools.lib.framereader import FrameReader, MP4FrameReader, MKVFrameReader
+from tools.lib.framereader import FrameReader, MP4FrameReader, MKVFrameReader, 
 import matplotlib
 import matplotlib.pyplot as plt
 from selfdrive.modeld.constants import LANE_OFFSET, LEAD_X_SCALE, LEAD_Y_SCALE
@@ -15,13 +15,13 @@ import sys
 camerafile = sys.argv[1]
 supercombo = load_model('supercombo.keras')
 
-fr = MKVFrameReader(camerafile)
+fr = FrameReader(camerafile)
 cap = cv2.VideoCapture(camerafile)
 
 imgs = []
 raw_imgs = []
 for i in tqdm(range(1000)):
-  imgs.append(fr.get(i, pix_fmt='yuv420p')[0].reshape((874*3//2, 1164)))
+  imgs.append(fr.get(i, pix_fmt='yuv444p')[0].reshape((874*3//2, 1164)))
   ret, frame = cap.read()
   raw_imgs.append(frame)
 
@@ -56,6 +56,8 @@ for i in tqdm(range(len(frame_tensors) - 1)):
   parsed = parser(outs)
   # Important to refeed the state
   state = outs[-1]
+  pose = outs[-2]
+
   # Show raw camera image
   cv2.imshow("modeld", raw_imgs[i])
   # Clean plot for next frame
@@ -67,6 +69,9 @@ for i in tqdm(range(len(frame_tensors) - 1)):
   plt.scatter(parsed["rll"], range(0, 192), c="r")
   # path = path cool isn't it ?
   plt.scatter(parsed["path"], range(0, 192), c="g")
+  print(np.array(pose[0,:3]).shape)
+  plt.scatter(pose[0,:3], range(3), c="y")
+  
   # Needed to invert axis because standart left lane is positive and right lane is negative, so we flip the x axis
   plt.gca().invert_xaxis()
   plt.pause(0.05)
