@@ -70,7 +70,7 @@ for i in tqdm(range(len(frame_tensors) - 1)):
   # path = path cool isn't it ?
   plt.scatter(parsed["path"], range(0, 192), c="g")
   print(np.array(pose[0,:3]).shape)
-  plt.scatter(pose[0,:3], range(3), c="y")
+  #plt.scatter(pose[0,:3], range(3), c="y")
   
   # Needed to invert axis because standart left lane is positive and right lane is negative, so we flip the x axis
   plt.gca().invert_xaxis()
