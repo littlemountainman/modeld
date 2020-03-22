@@ -1,1 +1,4 @@
 .vscode
+*.hevc
+OIDv4_ToolKit
+**/__pycache__

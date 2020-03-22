@@ -3,10 +3,10 @@ from common.transformations.camera import transform_img, eon_intrinsics
 from common.transformations.model import medmodel_intrinsics
 import numpy as np
 from tqdm import tqdm
-from tools.lib.framereader import FrameReader, MP4FrameReader, MKVFrameReader, 
+from tools.lib.framereader import FrameReader, MP4FrameReader, MKVFrameReader 
 import matplotlib
 import matplotlib.pyplot as plt
-from selfdrive.modeld.constants import LANE_OFFSET, LEAD_X_SCALE, LEAD_Y_SCALE
+
 import cv2 
 from tensorflow.keras.models import load_model
 from lib.parser import parser
@@ -15,13 +15,20 @@ import sys
 camerafile = sys.argv[1]
 supercombo = load_model('supercombo.keras')
 
+MAX_DISTANCE = 140.
+LANE_OFFSET = 1.8
+MAX_REL_V = 10.
+
+LEAD_X_SCALE = 10
+LEAD_Y_SCALE = 10
+
 fr = FrameReader(camerafile)
 cap = cv2.VideoCapture(camerafile)
 
 imgs = []
 raw_imgs = []
 for i in tqdm(range(1000)):
-  imgs.append(fr.get(i, pix_fmt='yuv444p')[0].reshape((874*3//2, 1164)))
+  imgs.append(fr.get(i, pix_fmt='yuv420p')[0].reshape((874*3//2, 1164)))
   ret, frame = cap.read()
   raw_imgs.append(frame)
 

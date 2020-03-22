@@ -1,12 +1,15 @@
-from common.transformations.camera import transform_img, eon_intrinsics
-from common.transformations.model import medmodel_intrinsics
+
+
 import numpy as np
-from tqdm import tqdm
-from tools.lib.framereader import FrameReader
-import matplotlib
-import matplotlib.pyplot as plt
-from selfdrive.modeld.constants import LANE_OFFSET, LEAD_X_SCALE, LEAD_Y_SCALE
-import cv2 
+
+
+MAX_DISTANCE = 140.
+LANE_OFFSET = 1.8
+MAX_REL_V = 10.
+
+LEAD_X_SCALE = 10
+LEAD_Y_SCALE = 10
+
 
 def sigmoid(x):
   return 1. / (1. + np.exp(-x))
