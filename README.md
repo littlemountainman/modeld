@@ -23,7 +23,7 @@ This will install all the necessary dependencies for running this.
 
 2. Download the sample data
 
-The sample data can be downloaded from [here.](https://drive.google.com/file/d/1hP-v8lLn1g1jEaJUBYJhv1mEb32hkMvG/view?usp=sharing). More data will be added soon. 
+The sample data can be downloaded from [here.](https://drive.google.com/file/d/1hP-v8lLn1g1jEaJUBYJhv1mEb32hkMvG/view?usp=sharing) More data will be added soon. 
 
 3. Run the program
 
