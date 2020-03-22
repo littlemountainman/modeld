@@ -1,7 +1,14 @@
 Self driving car lane and path detection
 =========================================
 ## Demo
-[![demo](http://img.youtube.com/vi/UFQQbTYH9hI/0.jpg)](http://www.youtube.com/watch?v=UFQQbTYH9hI "Learning a self driving car")
+<div align="center">
+      <a href="https://www.youtube.com/watch?v=UFQQbTYH9hI-Y">
+     <img 
+      src="https://img.youtube.com/vi/UFQQbTYH9hI-Y/0.jpg" 
+      alt="Demo" 
+      style="width:100%;">
+      </a>
+    </div>
 
 ## How to install
 
