@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 import cv2 
 from tensorflow.keras.models import load_model
-from lib.parser import parser
+from tools.lib.parser import parser
 import cv2
 import sys
 camerafile = sys.argv[1]
