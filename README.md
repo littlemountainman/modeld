@@ -1,5 +1,7 @@
 Self driving car lane and path detection
 =========================================
+## Demo
+[![demo](http://img.youtube.com/vi/UFQQbTYH9hI/0.jpg)](http://www.youtube.com/watch?v=UFQQbTYH9hI "Learning a self driving car")
 
 ## How to install
 
@@ -21,6 +23,8 @@ The sample data can be downloaded from [here.](TODO: ADD LINK). More data will b
 ``` 
 python3 parser.py ./<path-to-sample-data-hevc> 
 ```
+
+
 
 ## Related research
 
