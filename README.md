@@ -31,7 +31,11 @@ The sample data can be downloaded from [here.](TODO: ADD LINK). More data will b
 python3 parser.py ./<path-to-sample-data-hevc> 
 ```
 
+## What's next ? 
 
+- Traffic light, Car, Truck, Bicycle, Motorcycle, Pedestrians and Stop sign detection using YOLOv3.
+- Real Time semantic segmentation, or almost real time.
+- Fast SLAM.
 
 ## Related research
 
