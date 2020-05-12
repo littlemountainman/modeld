@@ -4,7 +4,7 @@ Self driving car lane and path detection
 <div align="center">
       <a href="https://www.youtube.com/watch?v=UFQQbTYH9hI-Y">
      <img 
-      src="https://img.youtube.com/vi/UFQQbTYH9hI-Y/0.jpg" 
+      src="https://i.ytimg.com/vi/UFQQbTYH9hI/maxresdefault.jpg" 
       alt="Demo" 
       style="width:100%;">
       </a>
