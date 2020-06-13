@@ -43,7 +43,7 @@ state = np.zeros((1,512))
 left_lane = []
 right_lane = []
 
-count = []
+count = 0
 
 for i in tqdm(range(len(frame_tensors) - 1)):
   inputs = [np.vstack(frame_tensors[i:i+2])[None], np.zeros((1,8)), state]
