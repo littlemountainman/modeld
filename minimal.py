@@ -3,6 +3,7 @@ from common.transformations.model import medmodel_intrinsics
 import numpy as np
 from tqdm import tqdm
 from tools.lib.framereader import FrameReader
+from tools.lib.parser import parser
 import matplotlib
 import matplotlib.pyplot as plt
 # imgs just a list of images as in YUV format
@@ -42,9 +43,12 @@ state = np.zeros((1,512))
 left_lane = []
 right_lane = []
 
+count = []
+
 for i in tqdm(range(len(frame_tensors) - 1)):
   inputs = [np.vstack(frame_tensors[i:i+2])[None], np.zeros((1,8)), state]
   outs = supercombo.predict(inputs)
+  parsed = parser(outs)
   poses.append(outs[-2])
   state = outs[-1]
   plt.clf()
