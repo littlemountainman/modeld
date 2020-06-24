@@ -45,5 +45,4 @@ python3 parser.py ./<path-to-sample-data-hevc>
 
 [comma.ai for supercombo model](https://github.com/commaai/openpilot/blob/master/models/supercombo.keras)
 [Harald Schafer for parts of the code](https://github.com/haraldschafer)
-
-
+[Code by @Shane](https://github.com/ShaneSmiskol)
