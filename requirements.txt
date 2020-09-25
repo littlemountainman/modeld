@@ -113,7 +113,7 @@ sympy==1.5.1
 tenacity==6.1.0
 tensorboard==1.14.0
 tensorflow-estimator==1.14.0
-tensorflow-gpu==1.14.0
+tensorflow-gpu==1.15.4
 tensorflow
 termcolor==1.1.0
 tqdm==4.43.0
@@ -245,7 +245,7 @@ sympy==1.5.1
 tenacity==6.1.0
 tensorboard==1.14.0
 tensorflow-estimator==1.14.0
-tensorflow-gpu==1.14.0
+tensorflow-gpu==1.15.4
 termcolor==1.1.0
 tqdm==4.43.0
 typed-ast==1.4.1
@@ -376,7 +376,7 @@ sympy==1.5.1
 tenacity==6.1.0
 tensorboard==1.14.0
 tensorflow-estimator==1.14.0
-tensorflow-gpu==1.14.0
+tensorflow-gpu==1.15.4
 termcolor==1.1.0
 tqdm==4.43.0
 typed-ast==1.4.1
