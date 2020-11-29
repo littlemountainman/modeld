@@ -8,11 +8,11 @@ import matplotlib.pyplot as plt
 
 import cv2 
 from tensorflow.keras.models import load_model
-from tools.lib.parser import parser
+from common.tools.lib.parser import parser
 import cv2
 import sys
 camerafile = sys.argv[1]
-supercombo = load_model('supercombo.keras')
+supercombo = load_model('models/supercombo.keras')
 
 MAX_DISTANCE = 140.
 LANE_OFFSET = 1.8

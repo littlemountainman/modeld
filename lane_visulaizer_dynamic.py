@@ -7,13 +7,13 @@ import matplotlib.pyplot as plt
 from common.lanes_image_space import transform_points
 import os
 from tensorflow.keras.models import load_model
-from tools.lib.parser import parser
+from common.tools.lib.parser import parser
 import cv2
 import sys
 
 #matplotlib.use('Agg')
 camerafile = sys.argv[1]
-supercombo = load_model('supercombo.keras')
+supercombo = load_model('models/supercombo.keras')
 
 #print(supercombo.summary())
 
