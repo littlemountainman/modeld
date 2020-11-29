@@ -20,7 +20,7 @@ cffi==1.14.0
 chardet==3.0.4
 colorama==0.4.3
 crcmod==1.7
-cryptography==2.8
+cryptography==3.2
 cycler==0.10.0
 Cython==0.29.15
 decorator==4.4.2
@@ -113,7 +113,7 @@ sympy==1.5.1
 tenacity==6.1.0
 tensorboard==1.14.0
 tensorflow-estimator==1.14.0
-tensorflow-gpu==1.14.0
+tensorflow-gpu==2.3.1
 tensorflow
 termcolor==1.1.0
 tqdm==4.43.0
@@ -151,7 +151,7 @@ cffi==1.14.0
 chardet==3.0.4
 colorama==0.4.3
 crcmod==1.7
-cryptography==2.8
+cryptography==3.2
 cycler==0.10.0
 Cython==0.29.15
 decorator==4.4.2
@@ -244,7 +244,7 @@ sympy==1.5.1
 tenacity==6.1.0
 tensorboard==1.14.0
 tensorflow-estimator==1.14.0
-tensorflow-gpu==1.14.0
+tensorflow-gpu==2.3.1
 termcolor==1.1.0
 tqdm==4.43.0
 typed-ast==1.4.1
@@ -282,7 +282,7 @@ cffi==1.14.0
 chardet==3.0.4
 colorama==0.4.3
 crcmod==1.7
-cryptography==2.8
+cryptography==3.2
 cycler==0.10.0
 Cython==0.29.15
 decorator==4.4.2
@@ -375,7 +375,7 @@ sympy==1.5.1
 tenacity==6.1.0
 tensorboard==1.14.0
 tensorflow-estimator==1.14.0
-tensorflow-gpu==1.14.0
+tensorflow-gpu==2.3.1
 termcolor==1.1.0
 tqdm==4.43.0
 typed-ast==1.4.1
