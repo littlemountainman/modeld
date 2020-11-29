@@ -4,7 +4,7 @@ import numpy as np
 from tqdm import tqdm
 import matplotlib
 import matplotlib.pyplot as plt
-from lanes_image_space import transform_points
+from common.lanes_image_space import transform_points
 import os
 from tensorflow.keras.models import load_model
 from tools.lib.parser import parser
