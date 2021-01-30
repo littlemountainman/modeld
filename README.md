@@ -28,7 +28,7 @@ The sample data can be downloaded from [here.](https://drive.google.com/file/d/1
 3. Run the program
 
 ``` 
-python3 parser.py ./<path-to-sample-data-hevc> 
+python3 main.py <path-to-sample-data-hevc> 
 ```
 
 ## What's next ? 
