@@ -1,7 +1,7 @@
 absl-py==0.9.0
 aenum==2.2.3
 aiodns==1.2.0
-aiohttp==3.5.4
+aiohttp==3.7.4
 appdirs==1.4.3
 astor==0.8.1
 astroid==2.3.3
@@ -133,7 +133,7 @@ zipp==3.1.0
 absl-py==0.9.0
 aenum==2.2.3
 aiodns==1.2.0
-aiohttp==3.5.4
+aiohttp==3.7.4
 appdirs==1.4.3
 astor==0.8.1
 astroid==2.3.3
@@ -263,7 +263,7 @@ zipp==3.1.0
 absl-py==0.9.0
 aenum==2.2.3
 aiodns==1.2.0
-aiohttp==3.5.4
+aiohttp==3.7.4
 appdirs==1.4.3
 astor==0.8.1
 astroid==2.3.3
