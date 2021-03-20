@@ -44,7 +44,7 @@ iso-639==0.4.5
 iso3166==0.9
 isodate==0.6.0
 isort==4.3.21
-Jinja2==2.11.1
+Jinja2==2.11.3
 jmespath==0.9.5
 json-rpc==1.13.0
 Keras==2.3.1
@@ -175,7 +175,7 @@ iso-639==0.4.5
 iso3166==0.9
 isodate==0.6.0
 isort==4.3.21
-Jinja2==2.11.1
+Jinja2==2.11.3
 jmespath==0.9.5
 json-rpc==1.13.0
 Keras==2.3.1
@@ -306,7 +306,7 @@ iso-639==0.4.5
 iso3166==0.9
 isodate==0.6.0
 isort==4.3.21
-Jinja2==2.11.1
+Jinja2==2.11.3
 jmespath==0.9.5
 json-rpc==1.13.0
 Keras==2.3.1
