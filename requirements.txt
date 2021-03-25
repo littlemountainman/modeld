@@ -92,7 +92,7 @@ pyproj==2.6.0
 PySocks==1.6.8
 python-dateutil==2.8.1
 pytz==2019.3
-PyYAML==5.3
+PyYAML==5.4
 pyzmq==19.0.0
 raven==6.10.0
 requests==2.21.0
@@ -223,7 +223,7 @@ pyproj==2.6.0
 PySocks==1.6.8
 python-dateutil==2.8.1
 pytz==2019.3
-PyYAML==5.3
+PyYAML==5.4
 pyzmq==19.0.0
 raven==6.10.0
 requests==2.21.0
@@ -354,7 +354,7 @@ pyproj==2.6.0
 PySocks==1.6.8
 python-dateutil==2.8.1
 pytz==2019.3
-PyYAML==5.3
+PyYAML==5.4
 pyzmq==19.0.0
 raven==6.10.0
 requests==2.21.0
