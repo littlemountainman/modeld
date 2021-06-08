@@ -72,7 +72,7 @@ oauthlib==3.1.0
 opencv-python==4.2.0.32
 opt-einsum==3.1.0
 pandas==1.0.1
-Pillow==7.1.0
+Pillow==8.2.0
 pipenv==2018.11.26
 protobuf==3.11.3
 psutil==5.7.0
@@ -203,7 +203,7 @@ oauthlib==3.1.0
 opencv-python==4.2.0.32
 opt-einsum==3.1.0
 pandas==1.0.1
-Pillow==7.1.0
+Pillow==8.2.0
 pipenv==2018.11.26
 protobuf==3.11.3
 psutil==5.7.0
@@ -334,7 +334,7 @@ oauthlib==3.1.0
 opencv-python==4.2.0.32
 opt-einsum==3.1.0
 pandas==1.0.1
-Pillow==7.1.0
+Pillow==8.2.0
 pipenv==2018.11.26
 protobuf==3.11.3
 psutil==5.7.0
