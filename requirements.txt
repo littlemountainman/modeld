@@ -74,7 +74,7 @@ opt-einsum==3.1.0
 pandas==1.0.1
 Pillow==7.1.0
 pipenv==2018.11.26
-protobuf==3.11.3
+protobuf==3.15.0
 psutil==5.7.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
@@ -205,7 +205,7 @@ opt-einsum==3.1.0
 pandas==1.0.1
 Pillow==7.1.0
 pipenv==2018.11.26
-protobuf==3.11.3
+protobuf==3.15.0
 psutil==5.7.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
@@ -336,7 +336,7 @@ opt-einsum==3.1.0
 pandas==1.0.1
 Pillow==7.1.0
 pipenv==2018.11.26
-protobuf==3.11.3
+protobuf==3.15.0
 psutil==5.7.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
