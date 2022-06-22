@@ -67,7 +67,7 @@ mpmath==1.1.0
 multidict==4.5.2
 Naked==0.1.31
 networkx==2.4
-numpy==1.18.1
+numpy==1.22.0
 oauthlib==3.1.0
 opencv-python==4.2.0.32
 opt-einsum==3.1.0
@@ -198,7 +198,7 @@ mpmath==1.1.0
 multidict==4.5.2
 Naked==0.1.31
 networkx==2.4
-numpy==1.18.1
+numpy==1.22.0
 oauthlib==3.1.0
 opencv-python==4.2.0.32
 opt-einsum==3.1.0
@@ -329,7 +329,7 @@ mpmath==1.1.0
 multidict==4.5.2
 Naked==0.1.31
 networkx==2.4
-numpy==1.18.1
+numpy==1.22.0
 oauthlib==3.1.0
 opencv-python==4.2.0.32
 opt-einsum==3.1.0
