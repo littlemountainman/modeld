@@ -62,7 +62,7 @@ MarkupSafe==1.1.1
 matplotlib==3.2.1
 maxminddb==1.4.1
 mccabe==0.6.1
-mechanize==0.4.3
+mechanize==0.4.6
 mpmath==1.1.0
 multidict==4.5.2
 Naked==0.1.31
@@ -193,7 +193,7 @@ MarkupSafe==1.1.1
 matplotlib==3.2.1
 maxminddb==1.4.1
 mccabe==0.6.1
-mechanize==0.4.3
+mechanize==0.4.6
 mpmath==1.1.0
 multidict==4.5.2
 Naked==0.1.31
@@ -324,7 +324,7 @@ MarkupSafe==1.1.1
 matplotlib==3.2.1
 maxminddb==1.4.1
 mccabe==0.6.1
-mechanize==0.4.3
+mechanize==0.4.6
 mpmath==1.1.0
 multidict==4.5.2
 Naked==0.1.31
