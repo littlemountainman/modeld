@@ -1,5 +1,9 @@
 Self driving car lane and path detection
 =========================================
+
+[![DOI](https://zenodo.org/badge/248442589.svg)](https://doi.org/10.5281/zenodo.14558104)
+
+
 ## Demo
 <div align="center">
       <a href="https://www.youtube.com/watch?v=UFQQbTYH9hI-Y">
