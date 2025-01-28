@@ -79,7 +79,7 @@ psutil==5.7.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycapnp==0.6.4
-pycares==2.4.0
+pycares==4.2.0
 pycparser==2.20
 pycrypto==2.6.1
 pycryptodome==3.7.3
@@ -210,7 +210,7 @@ psutil==5.7.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycapnp==0.6.4
-pycares==2.4.0
+pycares==4.2.0
 pycparser==2.20
 pycrypto==2.6.1
 pycryptodome==3.7.3
@@ -341,7 +341,7 @@ psutil==5.7.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycapnp==0.6.4
-pycares==2.4.0
+pycares==4.2.0
 pycparser==2.20
 pycrypto==2.6.1
 pycryptodome==3.7.3
