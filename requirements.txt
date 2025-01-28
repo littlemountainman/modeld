@@ -85,7 +85,7 @@ pycrypto==2.6.1
 pycryptodome==3.7.3
 pycurl==7.43.0.5
 pygame==1.9.6
-PyJWT==1.7.1
+PyJWT==2.4.0
 pylint==2.4.4
 pyparsing==2.4.6
 pyproj==2.6.0
@@ -216,7 +216,7 @@ pycrypto==2.6.1
 pycryptodome==3.7.3
 pycurl==7.43.0.5
 pygame==1.9.6
-PyJWT==1.7.1
+PyJWT==2.4.0
 pylint==2.4.4
 pyparsing==2.4.6
 pyproj==2.6.0
@@ -347,7 +347,7 @@ pycrypto==2.6.1
 pycryptodome==3.7.3
 pycurl==7.43.0.5
 pygame==1.9.6
-PyJWT==1.7.1
+PyJWT==2.4.0
 pylint==2.4.4
 pyparsing==2.4.6
 pyproj==2.6.0
